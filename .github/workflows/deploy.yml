@@ -63,8 +63,8 @@ on:
 
 permissions:
   contents: read
-  pages: write      # GitHub Pages 배포 권한
-  id-token: write   # GitHub Pages 배포 권한
+  pages: write # GitHub Pages 배포 권한
+  id-token: write # GitHub Pages 배포 권한
 
 concurrency:
   group: "pages"
